@@ -23,7 +23,7 @@ public class Test {
        driver.findElement(By.partialLinkText("Системные блоки")).click();
        driver.findElement(By.xpath(".//*[text()=' По возрастанию цены ']/..")).click();
        driver.findElement(By.xpath("//a[@data-id='2']/..")).click();
-       driver.findElement(By.xpath("//h3")).click();
+       driver.findElement(By.xpath("//div[@data-position-index='2']/..")).click();
 
 
     }
